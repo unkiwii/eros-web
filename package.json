@@ -1,0 +1,31 @@
+{
+  "name": "eros-website",
+  "version": "1.0.0",
+  "description": "eros programming language website",
+  "main": "index.js",
+  "scripts": {
+    "dist": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/unkiwii/eros-website.git"
+  },
+  "keywords": [
+    "eros",
+    "programming",
+    "language"
+  ],
+  "author": "Lucas Gabriel Sánchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unkiwii/eros-website/issues"
+  },
+  "homepage": "https://github.com/unkiwii/eros-website#readme",
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  },
+  "dependencies": {
+    "promisify-node": "^0.4.0"
+  }
+}

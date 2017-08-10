@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="keywords" content="eros, programming, language">
+    <meta name="description" content="eros programming language">
+    <meta name="author" content="Lucas Gabriel Sánchez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <script type="text/javascript">
+      function onDocumentLoad() {
+        const lang = (navigator.language || navigator.userLanguage).split('-')[0]
+        switch (lang) {
+          case 'es':  window.location.href = '/es/home.html'; break
+          default:    window.location.href = '/en/home.html'; break
+        }
+      }
+
+      if (document.readyState === 'loaded') {
+        onDocumentLoad()
+      } else {
+        document.addEventListener('DOMContentLoaded', onDocumentLoad)
+      }
+    </script>
+  </body>
+</html>
